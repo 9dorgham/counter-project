@@ -1,0 +1,60 @@
+* {
+    font-family: sans-serif;
+}
+.icon {
+    width: 2em;
+    height: 2em;
+}
+body {
+    padding: 4em;
+}
+.flex-r-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    text-align: center;
+}
+.image-area {
+    padding: 2em;
+    border-radius: 1em;
+    border: 2px #ccc dashed;
+}
+
+.control {
+    margin-bottom: 2em;
+}
+.control span {
+    background-color: #ff4030;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.control span:hover {
+    cursor: pointer;
+}
+
+.image-area #fileInput {
+    background-color: rgb(0, 153, 255);
+    color: #fff;
+    display: block;
+    margin-bottom: 2em;
+}
+.image-area #fileInput:hover {
+    cursor: pointer;
+}
+/* .image-area #adder {
+    background-color: rgb(0, 153, 255);
+    color: #fff;
+    width: fit-content;
+    border: none;
+    padding: 5px 10px;
+}
+.image-area #adder:hover {
+    cursor: pointer;
+}
+.image-area #adder svg {
+    fill: #fff;
+    margin-inline-end: 10px;
+} */
